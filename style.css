@@ -1,0 +1,27 @@
+#orb{
+  width: 800px;
+  height: 800px;
+  border-radius: 100%;
+  margin: 100px auto 0 auto;
+}
+
+.sun{
+  background: red;
+  background: -webkit-repeating-radial-gradient(red, yellow 10%, green 15%);
+  background: -o-repeating-radial-gradient(red, yellow 10%, green 15%);
+  background: -moz-repeating-radial-gradient(red, yellow 10%, green 15%);
+  background: repeating-radial-gradient(red, yellow 10%, green 15%);
+}
+
+.moon{
+  background-image: url("http://www.space.com/images/i/000/019/091/original/july-skywatching-portland.jpg");
+  background-size: cover;
+}
+
+
+.daysky{
+background-image: url('http://passportto.iberostar.com/wp-content/uploads/2013/12/CAR_Jamaica_marley.jpg')
+}
+.nightsky{
+background-image: url("http://www.space.com/images/i/000/052/868/i02/galaxy-ic-1613.jpg?1453848793?interpolation=lanczos-none&downsize=640:*")
+}
